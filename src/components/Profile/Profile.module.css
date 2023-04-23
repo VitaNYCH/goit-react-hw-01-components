@@ -5,6 +5,7 @@
 
     width: 550px;
     border: 2px solid grey;
+    border-radius: 20px;
     padding: 0;
     padding-top: 20px;
     margin: 0 auto;
@@ -56,6 +57,12 @@
     background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid rgb(178, 190, 181);
     padding: 30px 60px;
+}
+.stats li:first-child{
+ border-bottom-left-radius: 20px;
+}
+.stats li:last-child{
+  border-bottom-right-radius: 20px;
 }
 
 .label{
