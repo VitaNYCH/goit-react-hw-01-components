@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
 
-    width: 550px;
+    width: 450px;
     border: 2px solid grey;
     border-radius: 10px;
     padding: 0;
@@ -56,7 +56,7 @@
 .stats li{
     background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid rgb(178, 190, 181);
-    padding: 30px 60px;
+    padding: 20px 44px;
 }
 .stats li:first-child{
  border-bottom-left-radius: 10px;
