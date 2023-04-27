@@ -54,9 +54,11 @@
     list-style: none;
 }
 .stats li{
+    width: 150px;
     background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid rgb(178, 190, 181);
-    padding: 20px 44px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .stats li:first-child{
  border-bottom-left-radius: 10px;
