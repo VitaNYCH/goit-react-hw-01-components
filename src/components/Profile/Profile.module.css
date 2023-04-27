@@ -5,9 +5,9 @@
 
     width: 550px;
     border: 2px solid grey;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 0 auto;
 }
 
@@ -59,10 +59,10 @@
     padding: 30px 60px;
 }
 .stats li:first-child{
- border-bottom-left-radius: 20px;
+ border-bottom-left-radius: 10px;
 }
 .stats li:last-child{
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 10px;
 }
 
 .label{
