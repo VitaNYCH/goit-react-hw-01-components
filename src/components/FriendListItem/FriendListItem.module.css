@@ -28,11 +28,21 @@ background-color: green;
 
 margin-right: 20px
 }
+
+span.statusfalse{
+box-sizing: border-box;
+width:20px;
+height: 20px;
+border-radius: 50px;
+background-color: red;
+    
+margin-right: 20px 
+}
 .avatar{
-    margin-right: 40px;
+margin-right: 40px;
 }
 
 .name{
-    font-size: 25px;
-    font-weight: 500;
+font-size: 25px;
+font-weight: 500;
 }
