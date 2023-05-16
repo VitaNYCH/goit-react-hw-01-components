@@ -5,7 +5,63 @@ align-items: center;
 justify-content: center;
 
 padding: 0;
-padding-top: 10px;
 margin: 20px auto;
 width: 450px;
+}
+
+
+.statlist{
+display: flex;
+align-items: center;
+justify-content: center;
+
+list-style: none;
+padding: 0;
+}
+
+.item{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+padding: 20px;
+box-sizing: border-box;
+width: 90px;
+border:2px solid #2196F3;
+}
+
+.item:not(:last-child){
+    border-right: none;
+}
+
+.item:first-child{
+    background-color: aqua; 
+}
+
+.item:nth-child(2){
+    background-color:blueviolet;
+
+}
+
+.item:nth-child(3){
+    background-color:crimson;
+}
+.item:nth-child(4){
+    background-color:#2196F3;
+}
+.item:last-child{
+    background-color:chartreuse; 
+}
+
+
+.label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.percentage{
+    font-size: 25px;
+    font-weight: 500;
 }
